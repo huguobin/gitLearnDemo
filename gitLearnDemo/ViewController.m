@@ -19,8 +19,9 @@
    
     UILabel * lable = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 30)];
     lable.text=@"测试";
-    lable.textColor=[UIColor redColor];
+    lable.textColor=[UIColor yellowColor];
     [self.view addSubview:lable];
+    
     
     UILabel * lable2 = [[UILabel alloc]initWithFrame:CGRectMake(200, 100, 100, 30)];
     lable2.text=@"Bug测试";
