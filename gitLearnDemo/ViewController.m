@@ -23,7 +23,7 @@
     [self.view addSubview:lable];
     
     UILabel * lable2 = [[UILabel alloc]initWithFrame:CGRectMake(200, 100, 100, 30)];
-    lable2.text=@"异地测试";
+    lable2.text=@"Bug测试";
     lable2.textColor=[UIColor purpleColor];
     [self.view addSubview:lable2];
    
